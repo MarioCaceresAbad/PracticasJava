@@ -109,7 +109,7 @@ public class Ficheros {
 //Test	
 	public static void main(String[] args) {
 		System.out.println("---------------------------------------------------------------------------------------------------------");
-		System.out.println(Palabras("C:\\Users\\mario\\Desktop\\datos-entregable-01 (3)\\lin_quijote.txt", " ", "Quijote")); //El fichero solo contiene una vez la palabra "Quijote" con la primera mayúscula.
+		System.out.println(Palabras("C:\\Users\\mario\\Desktop\\datos-entregable-01 (3)\\lin_quijote.txt", " ", "Quijote")); 
 		System.out.println("---------------------------------------------------------------------------------------------------------");
 		System.out.println(Lineas("C:\\Users\\mario\\Desktop\\datos-entregable-01 (3)\\lin_quijote.txt", "Quijote"));
 		System.out.println("---------------------------------------------------------------------------------------------------------");
