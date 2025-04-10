@@ -1,7 +1,7 @@
 package entrega2;
 import java.util.*;
 
-class Cola<E> extends AgregadoLineal<E> {
+public class Cola<E> extends AgregadoLineal<E> {
     public static <E> Cola<E> of() {
         return new Cola<>();
     }

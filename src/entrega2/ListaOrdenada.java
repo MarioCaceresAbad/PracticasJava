@@ -1,7 +1,7 @@
 package entrega2;
 import java.util.*;
 
-class ListaOrdenada<E> extends AgregadoLineal<E> {
+public class ListaOrdenada<E> extends AgregadoLineal<E> {
     private final Comparator<E> comparator;
 
     public ListaOrdenada(Comparator<E> comparator) {

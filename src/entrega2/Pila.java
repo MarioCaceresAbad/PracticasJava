@@ -1,7 +1,7 @@
 package entrega2;
 import java.util.*;
 
-class Pila<E> extends AgregadoLineal<E> {
+public class Pila<E> extends AgregadoLineal<E> {
     @Override
     public void add(E e) {
         elementos.add(0, e);
